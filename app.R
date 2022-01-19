@@ -2,7 +2,7 @@ library(shiny)
 library(datasets)
 library(ggplot2)
 
-run # Data pre-processing ----
+ # Data pre-processing ----
 # Tweak the "am" variable to have nicer factor labels -- since this
 # doesn't rely on any user inputs, we can do this once at startup
 # and then use the value throughout the lifetime of the app
